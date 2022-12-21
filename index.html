@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GrAbility</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="grability">GrAbility</h1>
+<h1 id="紹介動画">紹介動画</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JfZP9xSGWfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<h1 id="作品概要">作品概要</h1>
+<ul>
+<li>
+<h2 id="作品名">作品名</h2>
+<ul>
+<li>Grabillity</li>
+</ul>
+</li>
+<li>
+<h2 id="学校">学校</h2>
+<ul>
+<li>河原電子ビジネス専門学校</li>
+</ul>
+</li>
+<li>
+<h2 id="制作人数">制作人数</h2>
+<ul>
+<li>3人</li>
+</ul>
+</li>
+<li>
+<h2 id="製作期間">製作期間</h2>
+<ul>
+<li>2022年2月～2021年5月</li>
+</ul>
+</li>
+<li>
+<h2 id="プレイ人数">プレイ人数</h2>
+<ul>
+<li>1人</li>
+</ul>
+</li>
+<li>
+<h2 id="対応ハード">対応ハード</h2>
+<ul>
+<li>PC Windows10</li>
+</ul>
+</li>
+<li>
+<h2 id="使用言語">使用言語</h2>
+<ul>
+<li>C++</li>
+<li>HLSL</li>
+</ul>
+</li>
+<li>
+<h2 id="制作環境">制作環境</h2>
+<ul>
+<li>エンジン
+<ul>
+<li>学校内製の簡易エンジン(DirectX12)</li>
+</ul>
+</li>
+<li>プログラム
+<ul>
+<li>Visual Studio 2022</li>
+</ul>
+</li>
+<li>3Dモデル
+<ul>
+<li>Blender</li>
+<li>3DSMax</li>
+</ul>
+</li>
+<li>エフェクト
+<ul>
+<li>Effeckseer</li>
+</ul>
+</li>
+<li>バージョン管理
+<ul>
+<li>GitHub</li>
+</ul>
+</li>
+<li>タスク管理
+<ul>
+<li>Redmine</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="githuburl">GitHubURL</h2>
+<ul>
+<li><a href="https://github.com/YuMild/GameAwards">https://github.com/YuMild/GameAwards</a></li>
+</ul>
+</li>
+<li>
+<h2 id="備考">備考</h2>
+<ul>
+<li>日本ゲーム大賞2022「アマチュア部門」に応募</li>
+<li>日本ゲーム大賞2022「アマチュア部門」一次審査通過</li>
+</ul>
+</li>
+</ul>
+<h1 id="ゲーム内容">ゲーム内容</h1>
+<p>リアルタイムでボールを弾いてギミックを攻略しながら制限時間内にゴールを目指す3Dアクションゲームです。</p>
+<h1 id="操作説明">操作説明</h1>
+<p><img src="file:///c:\Users\kbc21b35\Desktop\test\メニュー操作時.png" width="400"></img></br><br>
+<img src="file:///c:\Users\kbc21b35\Desktop\test\ゲーム操作時.png" width="400"></img></br></p>
+<h1 id="担当ソースコード">担当ソースコード</h1>
+<h2 id="好村-雄真">好村 雄真</h2>
+<ul>
+<li>SpriteRender.h(一部)<br>
+(画像の切り取り処理を行う関数の追加)</li>
+<li>PowerCharge.cpp</li>
+<li>PowerCharge.h</li>
+<li>LockOn.cpp</li>
+<li>LockOn.h</li>
+<li>BreakBox.cpp</li>
+<li>BreakBox.h</li>
+<li>Bumper.cpp</li>
+<li>Bumper.h</li>
+<li>Door.cpp</li>
+<li>Door.h</li>
+<li>Drone.cpp</li>
+<li>Drone.h</li>
+<li>Duct.cpp</li>
+<li>Duct.h</li>
+<li>Energy.cpp</li>
+<li>Energy.h</li>
+<li>Engine.cpp</li>
+<li>Engine.h</li>
+<li>Goal.cpp</li>
+<li>Goal.h</li>
+<li>HoneyCombBlock.cpp</li>
+<li>HoneyCombBlock.h</li>
+<li>JumpBoard.cpp</li>
+<li>JumpBoard.h</li>
+<li>Nut.cpp</li>
+<li>Nut.h</li>
+<li>Pipe.cpp</li>
+<li>Pipe.h</li>
+<li>ReSpawnPoint.cpp</li>
+<li>ReSpawnPoint.h</li>
+<li>SignBoard.cpp</li>
+<li>SignBoard.h</li>
+<li>SpeedUpRail.cpp</li>
+<li>SpeedUpRail.h</li>
+<li>Truck.cpp</li>
+<li>Truck.h</li>
+<li>Turret.cpp</li>
+<li>Turret.h</li>
+<li>Volt.cpp</li>
+<li>Volt.h</li>
+<li>Stage_1.cpp</li>
+<li>Stage_1.h</li>
+<li>Stage_1_Stage.cpp</li>
+<li>Stage_1_Stage.h</li>
+<li>Stage_1_Wall.cpp</li>
+<li>Stage_1_Wall.h</li>
+<li>ChargeShot.cpp</li>
+<li>ChargeShot.h</li>
+<li>Length.cpp</li>
+<li>Length.h</li>
+<li>TimeLimit.cpp</li>
+<li>TimeLimit.h</li>
+<li>Window.cpp</li>
+<li>Window.h</li>
+<li>First.cpp</li>
+<li>First.h</li>
+<li>Game.cpp</li>
+<li>Game.h</li>
+<li>GameClear.cpp</li>
+<li>GameClear.h</li>
+<li>GameOver.cpp</li>
+<li>GameOver.h</li>
+<li>Setting.cpp</li>
+<li>Setting.h</li>
+<li>Title.cpp</li>
+<li>title.h</li>
+<li>GameLight.cpp</li>
+<li>GameLight.h</li>
+<li>Player.cpp</li>
+<li>Player.h</li>
+<li>LockOnObject.cpp</li>
+<li>LockOnObject.h</li>
+</ul>
+<h1 id="技術紹介">技術紹介</h1>
+<h2 id="当たり判定">当たり判定</h2>
+<p>RigitBodyにカメラ方向への力を加算し物理演算する事でプレイヤーの操作を行う都合上、メッシュに合わせてコライダーを自動生成するメッシュコライダーではすり抜けが多発してしまいます。</p>
+<p>ですので、通常60FPSで一度のみの当たり判定を行っている処理を4回に増やし、当たり判定のみ疑似的に240FPSで実行しています。</p>
+<p>しかし、それでも稀にすり抜けが発生してしまいましたので、3DSMaxにて配置したBoxオブジェクトの位置、大きさ、回転をC++側で読み取り、Boxコライダーとして配置するシステムを取り入れました。上記の二つの方法を取り入れた後はすり抜けが発生しなくなりました。</p>
+<h2 id="ロックオン">ロックオン</h2>
+<p>ロックオン可能なオブジェクトはLockOnObjectという基底オブジェクトを派生クラスとして作成し、LockOnObjectのポジションを都度取得します。その後、全てのLockOnObjectとプレイヤー自身の距離を求め、一番近いオブジェクトのワールド座標をスクリーン座標に変換して実装しています。</p>
+<h2 id="カメラ移動">カメラ移動</h2>
+<p>スピード感を演出する為に、プレイヤの速度に応じてカメラの追従の速度を変化させています。<br>
+<img src="file:///c:\Users\kbc21b35\Desktop\test\カメラ通常時.png" width="400"></img></br><br>
+<img src="file:///c:\Users\kbc21b35\Desktop\test\カメラ遅延発生時.png" width="400"></img></br></p>
+<h2 id="制限時間の表現">制限時間の表現</h2>
+<p>制限時間が迫っている時の危機感を演出する為に、残り時間が一定を下回ると、Model描画時のColorにRを加算し、3Dモデルのみ赤みを帯びさせています。</p>
+<p><img src="file:///c:\Users\kbc21b35\Desktop\test\制限時間_通常時.png" width="400"></img></br><br>
+<img src="file:///c:\Users\kbc21b35\Desktop\test\制限時間_異常時.png" width="400"></img></br></p>
+
+        
+        
+    </body>
+    </html>
